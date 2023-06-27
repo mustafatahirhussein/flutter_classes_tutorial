@@ -1,0 +1,28 @@
+Last lecture
+
+Navigations
+
+- 3 types
+- Flutter's default (anonymous route - push, pop, pushnamed, pushandremoveuntil)
+
+- Named Routing 
+
+first screen -> second scrn.. pushNamed("String");
+
+generative route (onGenerateFunction).
+handle Navigation in a separate class.
+
+(material app's entity -> attach above)
+
+------------------------------
+- 2 types of Widgets
+
+- Stateless => static UI, custom design (user profile page)
+
+- Stateful => Vice versa (user interaction -> setState
+
+
+-------------------------------
+
+Fluro
+go_router
