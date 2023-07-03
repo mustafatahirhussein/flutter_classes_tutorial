@@ -26,3 +26,17 @@ handle Navigation in a separate class.
 
 Fluro
 go_router
+
+/* CLASS 2 */
+
+TextField -> Validations
+TextFormField -> with validation and various other entities (properties)
+
+---- Flutter's Stateful Widget lifecycle ------
+
+- CreateState
+- mounted => true (current state is visible)
+- initState
+
+Ternary Operator
+cond... ? run this : run this one

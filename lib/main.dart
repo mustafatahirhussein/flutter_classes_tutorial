@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: RoutePrefixes.initialRoute,
+      initialRoute: RoutePrefixes.sampleForm,
       onGenerateRoute: (c) => AppRouting().onGenerateRoutes(c),
 
       // routes: {
