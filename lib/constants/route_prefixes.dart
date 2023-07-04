@@ -4,4 +4,7 @@ class RoutePrefixes {
 
   /// Class 2
   static const String sampleForm = '/sample_form';
+
+  /// Class 3
+  static const String class3 = '/class_3';
 }

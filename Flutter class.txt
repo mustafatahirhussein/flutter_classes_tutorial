@@ -40,3 +40,9 @@ TextFormField -> with validation and various other entities (properties)
 
 Ternary Operator
 cond... ? run this : run this one
+
+----------- CLASS 3 --------------
+
+Listview.builder() => index, context
+
+EXPANDED
