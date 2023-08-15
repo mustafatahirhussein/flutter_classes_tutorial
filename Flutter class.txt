@@ -45,4 +45,10 @@ cond... ? run this : run this one
 
 Listview.builder() => index, context
 
+----------- CLASS 5 --------------
+
+Fonts in Flutter
+
+extension that are acceptable - .ttf, .otf
+
 EXPANDED
