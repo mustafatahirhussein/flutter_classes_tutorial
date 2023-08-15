@@ -7,4 +7,7 @@ class RoutePrefixes {
 
   /// Class 3
   static const String class3 = '/class_3';
+
+  /// Class 4
+  static const String class4 = '/class_4';
 }

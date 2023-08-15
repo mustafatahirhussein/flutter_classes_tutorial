@@ -66,7 +66,7 @@ class Class3 extends StatelessWidget {
               ),
             ),
 
-            ListView.builder(
+            ListView.separated(
               padding: EdgeInsets.all(10),
               itemCount: 40,
               physics: ClampingScrollPhysics(),
@@ -82,6 +82,15 @@ class Class3 extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),),
                   ),
+                );
+              },
+              separatorBuilder: (_, i) {
+                // return SizedBox(
+                //   height: 13,
+                // );
+
+                return Divider(
+                  color: Colors.red,
                 );
               },
             ),

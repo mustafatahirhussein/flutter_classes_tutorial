@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_classes_tutorial/constants/route_prefixes.dart';
 import 'package:flutter_classes_tutorial/presentation/class_ii/sample_form.dart';
 import 'package:flutter_classes_tutorial/presentation/class_iii/class_3.dart';
+import 'package:flutter_classes_tutorial/presentation/class_iv/class_4.dart';
 import 'package:flutter_classes_tutorial/presentation/screen_1.dart';
 import 'package:flutter_classes_tutorial/presentation/screen_2.dart';
 
@@ -20,6 +21,9 @@ class AppRouting {
 
         case RoutePrefixes.class3:
         return router(Class3());
+
+        case RoutePrefixes.class4:
+        return router(Class4());
 
       default:
         return router(
