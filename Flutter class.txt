@@ -52,3 +52,9 @@ Fonts in Flutter
 extension that are acceptable - .ttf, .otf
 
 EXPANDED
+
+----- CLASS 6 ---
+
+Bottom Nav Bar -> Scaffold -> Widget
+
+- List of Items []

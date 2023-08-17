@@ -4,6 +4,7 @@ import 'package:flutter_classes_tutorial/presentation/class_ii/sample_form.dart'
 import 'package:flutter_classes_tutorial/presentation/class_iii/class_3.dart';
 import 'package:flutter_classes_tutorial/presentation/class_iv/class_4.dart';
 import 'package:flutter_classes_tutorial/presentation/class_v/class_v.dart';
+import 'package:flutter_classes_tutorial/presentation/class_vi/class_vi.dart';
 import 'package:flutter_classes_tutorial/presentation/screen_1.dart';
 import 'package:flutter_classes_tutorial/presentation/screen_2.dart';
 
@@ -28,6 +29,9 @@ class AppRouting {
 
       case RoutePrefixes.class5:
         return router(ClassV());
+
+        case RoutePrefixes.class6:
+        return router(ClassVI());
 
       default:
         return router(

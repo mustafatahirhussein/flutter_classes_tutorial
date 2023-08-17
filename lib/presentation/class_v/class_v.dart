@@ -8,7 +8,9 @@ class ClassV extends StatelessWidget {
     TextStyle style = Theme.of(context).textTheme.titleMedium!;
 
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Just a test"),
+      ),
       body: Center(
         child: Text("Class V tutorial", style: style,),
       ),
