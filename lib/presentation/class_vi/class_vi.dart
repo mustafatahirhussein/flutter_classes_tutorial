@@ -1,3 +1,4 @@
+import 'package:floating_bottom_navigation_bar/floating_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_classes_tutorial/presentation/class_iv/class_4.dart';
 
@@ -30,45 +31,59 @@ class _ClassVIState extends State<ClassVI> {
       ),
 
       body: list[_index],
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
+      // bottomNavigationBar: BottomNavigationBar(
+      //   items: [
+      //
+      //     BottomNavigationBarItem(
+      //       icon: Icon(
+      //         Icons.abc_rounded
+      //       ),
+      //       label: 'ABC'
+      //     ),
+      //
+      //     BottomNavigationBarItem(
+      //         icon: Icon(
+      //             Icons.factory
+      //         ),
+      //         label: 'DEF'
+      //     ),
+      //
+      //     BottomNavigationBarItem(
+      //         icon: Icon(
+      //             Icons.yard_rounded
+      //         ),
+      //         label: 'GHI'
+      //     ),
+      //   ],
+      //   currentIndex: _index,
+      //   onTap: (val) {
+      //     setState(() {
+      //       _index = val;
+      //     });
+      //   },
 
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.abc_rounded
-            ),
-            label: 'ABC'
-          ),
+      //   type: BottomNavigationBarType.fixed,
+      //   backgroundColor: Colors.black,
+      //   elevation: 0,
+      //   unselectedIconTheme: IconThemeData(
+      //     color: Colors.white,
+      //   ),
+      //   showUnselectedLabels: false,
+      //   showSelectedLabels: false,
+      // ),
 
-          BottomNavigationBarItem(
-              icon: Icon(
-                  Icons.factory
-              ),
-              label: 'DEF'
-          ),
-
-          BottomNavigationBarItem(
-              icon: Icon(
-                  Icons.yard_rounded
-              ),
-              label: 'GHI'
-          ),
-        ],
-        currentIndex: _index,
+      bottomNavigationBar: FloatingNavbar(
         onTap: (val) {
           setState(() {
             _index = val;
           });
         },
-
-        type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.black,
-        elevation: 0,
-        unselectedIconTheme: IconThemeData(
-          color: Colors.white,
-        ),
-        showUnselectedLabels: false,
-        showSelectedLabels: false,
+        currentIndex: _index,
+        items: [
+          FloatingNavbarItem(icon: Icons.home, title: 'Home'),
+          FloatingNavbarItem(icon: Icons.explore, title: 'Explore'),
+          FloatingNavbarItem(icon: Icons.chat_bubble_outline, title: 'Chats'),
+        ],
       ),
     );
   }
