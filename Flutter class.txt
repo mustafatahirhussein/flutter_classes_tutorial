@@ -58,3 +58,13 @@ EXPANDED
 Bottom Nav Bar -> Scaffold -> Widget
 
 - List of Items []
+
+----------- CLASS 8 --------------
+
+JSON - Key-Value pair
+Key - String
+Value - String, bool, float/double, int, [], {}
+
+FutureBuilder
+- future (getStudents)
+- builder(context, snapshot)

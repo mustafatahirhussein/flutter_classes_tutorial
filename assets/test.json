@@ -1,0 +1,20 @@
+{
+  "message": "parsed successfully",
+  "data": [
+    {
+      "id": 1,
+      "name": "Ali",
+      "marks": 86
+    },
+    {
+      "id": 2,
+      "name": "Mustafa",
+      "marks": 78
+    },
+    {
+      "id": 3,
+      "name": "George",
+      "marks": 67
+    }
+  ]
+}

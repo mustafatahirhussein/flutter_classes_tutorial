@@ -9,6 +9,8 @@ import 'package:flutter_classes_tutorial/presentation/class_vii/class_vii.dart';
 import 'package:flutter_classes_tutorial/presentation/screen_1.dart';
 import 'package:flutter_classes_tutorial/presentation/screen_2.dart';
 
+import '../presentation/class_viii/class_viii.dart';
+
 class AppRouting {
   dynamic onGenerateRoutes(RouteSettings settings) {
     switch(settings.name) {
@@ -36,6 +38,9 @@ class AppRouting {
 
         case RoutePrefixes.class7:
         return router(ClassVII());
+
+        case RoutePrefixes.class8:
+        return router(ClassVIII());
 
       default:
         return router(
