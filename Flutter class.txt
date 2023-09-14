@@ -68,3 +68,12 @@ Value - String, bool, float/double, int, [], {}
 FutureBuilder
 - future (getStudents)
 - builder(context, snapshot)
+
+----- CLASS 9 ------
+
+- http (hypertext transfer protocol)
+- dio
+
+Status -> 404, 501, 200, 202
+501 - no server
+202 - empty
